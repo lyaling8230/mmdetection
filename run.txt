@@ -1,0 +1,5 @@
+export CUDA_VISIBLE_DEVICES=2
+python tools/test.py configs/faster_rcnn/faster-rcnn_r50_fpn_ms-3x_coco.py pretraind/faster_rcnn/faster_rcnn_r50_fpn_mstrain_3x_coco_20210524_110822-e10bd31c.pth --out output.pkl
+    [--out ${RESULT_FILE}] \
+    [--eval ${EVAL_METRICS}] \
+    [--show]
